@@ -1,0 +1,35 @@
+{
+    "name": "e-ghl/hashing-private",
+	"description": "A class that helps the integration plug-in to calculate hash for communicating with eGHL payment Gateway",
+	"keywords": [
+        "gateway",
+        "merchant",
+        "payment",
+        "eghl"
+    ],
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Jawad Humayun",
+            "email": "jawad.humayun@ghl.com"
+        }
+    ],
+	"type": "library",
+    "license": "proprietary",
+	"repositories": [
+        {
+            "type": "vcs",
+            "url": "https://bitbucket.org/eghl/eghl_hashing.git"
+        }
+    ],
+    "require": {
+    },
+	"require-dev": {  
+		"phpunit/phpunit": "4.0.*"  
+	},  
+	"autoload": {  
+		"psr-4": {  
+			"eGHL\\Hashing\\": "src"  
+		}  
+    }
+}

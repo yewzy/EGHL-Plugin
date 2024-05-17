@@ -1,0 +1,12 @@
+{
+    "name": "e-ghl/Woocommerce",
+    "description": "eGHL Woocommerce Plugin Package",
+    "minimum-stability": "stable",
+    "repositories": [
+        {"type": "composer", "url": "https://repo.packagist.com/eghl/"},
+        {"packagist.org": false}
+    ],
+    "require": {
+        "e-ghl/omnipay": "^3"
+    }
+}

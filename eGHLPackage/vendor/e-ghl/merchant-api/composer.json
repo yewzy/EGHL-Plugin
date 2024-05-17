@@ -1,0 +1,41 @@
+{
+    "name": "e-ghl/merchant-api",
+    "description": "This package provides an easy interface to the merchants to interact with eGHL APIs i.e. Capture, Query, Refund and Reversal",
+    "keywords": [
+        "eGHL",
+        "Merchant API",
+        "Query",
+        "Refund",
+        "Reversal",
+        "Capture"
+    ],
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Jawad Humayun",
+            "email": "jawad.humayun@ghl.com"
+        }
+    ],
+    "type": "library",
+    "license": "proprietary",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://bitbucket.org/eghl/merchantapi.git"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "e-ghl/param-validator": "^1",
+        "e-ghl/exception": "^1.0"
+    },
+	"require-dev": {  
+        "phpunit/phpunit": "4.0.*"  
+	},  
+	"autoload": {  
+		"psr-4": {  
+			"eGHL\\MerchantAPI\\": "src"  
+        },
+        "files": ["src/eghl_hashing/src/eGHL_Hash.php"]
+    }
+}

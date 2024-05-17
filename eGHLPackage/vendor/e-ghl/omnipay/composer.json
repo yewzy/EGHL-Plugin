@@ -1,0 +1,39 @@
+{
+    "name": "e-ghl/omnipay",
+    "description": "Omnipay payment processing library for eGHL payment Gateway",
+    "keywords": [
+        "gateway",
+        "merchant",
+        "omnipay",
+        "eghl",
+        "payment"
+    ],
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Jawad Humayun",
+            "email": "jawad.humayun@ghl.com"
+        }
+    ],
+    "type": "library",
+    "license": "MIT",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "https://bitbucket.org/eghl/eghl-omnipay.git"
+        }
+    ],
+    "require": {
+        "league/omnipay": "^3",
+        "e-ghl/merchant-api": "^3",
+        "e-ghl/exception": "^1"
+    },
+	"require-dev": {  
+        "phpunit/phpunit": "4.0.*"  
+	},  
+	"autoload": {  
+		"psr-4": {  
+			"Omnipay\\eGHL\\": "src"  
+		}  
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "name": "e-ghl/exception",
+    "description": "Exception Handler for eGHL PHP packages",
+    "keywords": [
+        "gateway",
+        "merchant",
+        "eghl",
+        "exception"
+    ],
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Jawad Humayun",
+            "email": "jawad.humayun@ghl.com"
+        }
+    ],
+    "type": "library",
+    "license": "proprietary",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "https://bitbucket.org/eghl/eghl-exception.git"
+        }
+    ],
+    "require": {
+    },
+	"require-dev": {  
+        "phpunit/phpunit": "4.0.*"  
+	},  
+	"autoload": {  
+		"psr-4": {  
+			"eGHL\\": "src"  
+		}  
+	} 
+}
